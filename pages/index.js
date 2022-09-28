@@ -1,5 +1,11 @@
+import Banner from "./components/banner"
+import Navbar from "./components/navbar"
+
 export default function Home() {
   return (
-    <div className='text-2xl'>Hello, next.js</div>
+    <div>
+      <Banner />
+      <Navbar />
+      </div>
   )
 }
